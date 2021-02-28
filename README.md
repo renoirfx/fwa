@@ -18,3 +18,35 @@ And last, `Intel` syntax with `NASM` *or still use GAS?*.
     │   └── write.s
     └── return.s
 ```
+
+## Notes
+
+### Flags
+```
+ZF = Zero flag
+SF = Sign flag
+CF = Carry Flag
+OF = Overflow flag
+```
+
+### General Purpose Registers
+```
+rsp = Stack pointer
+rax = Return value
+rdi = 1st argument
+rsi = 2nd argument
+rdx = 3rd argument
+rcx = 4th argument
+r8 = 5th argument
+r9 = 6th argument
+r10, r11 = Callee-owned
+rbx, rbp, r12 - r15 = Caller-owned
+```
+
+### Instruction suffixes
+```
+b = byte
+w = word
+l = doubleword
+q = quadword
+```
