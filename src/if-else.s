@@ -7,7 +7,7 @@
 	.string "greather than\n"
 .lt_fmt:
 	.string "less than\n"
-	
+
 .text
 .globl	main
 main:
