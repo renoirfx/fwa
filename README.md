@@ -50,3 +50,10 @@ w = word
 l = doubleword
 q = quadword
 ```
+
+### Intel syntax with GAS
+```asm
+.intel_syntax noprefix
+
+; your code here
+```
