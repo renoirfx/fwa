@@ -11,6 +11,8 @@ And last, `Intel` syntax with `NASM` *or still use GAS?*.
 ```
 .
 └── src/
+    ├── bin/
+    │   └── clear.s
     ├── c-function/
     │   └── printf.s
     ├── if-else.s
