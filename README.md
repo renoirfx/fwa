@@ -13,7 +13,7 @@ And last, `Intel` syntax with `NASM` *or still use GAS?*.
 └── src/
     ├── bin/
     │   └── clear.s
-    ├── c-function/
+    ├── libc/
     │   └── printf.s
     ├── if-else.s
     ├── linux-syscall/
